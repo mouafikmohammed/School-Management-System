@@ -23,10 +23,32 @@
       <div class="admin-left" id='sildeNav'>
         <div class="admin">
           <img src="images/mohammed.jpg" alt="profile picture">
-          <h1>Mohammed Mouafik</h1>
+          <h1 style='text-align:center'>Mohammed Mouafik</h1>
+        </div>
+        <div class="tab">
+          <div class="tablinks" id='defaultOpen'>
+            <i class='fas fa-tachometer-alt'></i>
+            <span class="tooltip">Dashboard</span>
+            <h4>Dashboard</h4>
+          </div>
+          <div class="tablinks">
+            <i class='fas fa-chalkboard-teacher'></i>
+            <span class="tooltip">Teacher</span>
+            <h4>Teacher</h4>
+          </div>
         </div>
       </div>
-      <div class="admin-right"></div>
+
+
+      <!-- right side of dashboard start here ====================================--->
+      <div class="admin-right">
+        <div id="dashboard_top" class='tabcontent'>
+          <h2>dashboard content</h2>
+        </div>
+        <div id="teacher _top" class='tabcontent'>
+          <h2>taecher content</h2>
+        </div>
+      </div>
     </div>
   </section>
 </body>
