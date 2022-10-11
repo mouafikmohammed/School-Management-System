@@ -14,9 +14,20 @@
       crossorigin="anonymous"
     />
    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-   <title>Islamic School System</title>
+   <link rel="stylesheet" href="css/admin.css">
+   <title>School System</title>
 </head>
 <body>
-   
+  <section class="admin-top">
+    <div class="row">
+      <div class="admin-left" id='sildeNav'>
+        <div class="admin">
+          <img src="images/mohammed.jpg" alt="profile picture">
+          <h1>Mohammed Mouafik</h1>
+        </div>
+      </div>
+      <div class="admin-right"></div>
+    </div>
+  </section>
 </body>
 </html>
