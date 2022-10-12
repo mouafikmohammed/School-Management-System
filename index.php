@@ -41,7 +41,13 @@
 
 
       <!-- right side of dashboard start here ====================================--->
-      <div class="admin-right">
+      <div class="admin-right" id="admin-right">
+        <div class="header">
+          <div class="header-left">
+            <i onclick="menuAnimation()" class="fas fa-bars"></i>
+          </div>
+          <div class="header-right">Test</div>
+        </div>
         <div id="dashboard_top" class='tabcontent'>
           <h2>dashboard content</h2>
         </div>
@@ -51,5 +57,15 @@
       </div>
     </div>
   </section>
+  <script>
+    function menuAnimation() {
+      var element = document.getElementById("sildeNav");
+      var element1 = document.getElementById("admin-right");
+      if (element && element1) {
+        element.classList.toggle("navSlide");
+        element1.classList.toggle("navSlide1");
+      }
+    }
+  </script>
 </body>
 </html>
