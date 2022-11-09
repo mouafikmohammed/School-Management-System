@@ -67,7 +67,7 @@
             <h4>Media</h4>
           </div>
           <div class="tablinks" onclick="openTab(event,'expenses')">
-            <i class='fas fa-check-alt'></i>
+            <i class='fas fa-money-check-alt'></i>
             <span class="tooltip">Expenses</span>
             <h4>Expenses</h4>
           </div>
@@ -92,7 +92,7 @@
             <h4>Events</h4>
           </div>
           <div class="tablinks" onclick="openTab(event,'map')">
-            <i class='fas fa-marker-alt'></i>
+            <i class='fas fa-map-marker-alt'></i>
             <span class="tooltip">Map</span>
             <h4>Map</h4>
           </div>
