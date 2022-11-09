@@ -23,18 +23,78 @@
       <div class="admin-left" id='sildeNav'>
         <div class="admin">
           <img src="images/mohammed.jpg" alt="profile picture">
-          <h1 style='text-align:center'>Mohammed Mouafik</h1>
+          <h4 style='text-align:center'>Mohammed Mouafik</h4>
         </div>
         <div class="tab">
-          <div class="tablinks" id='defaultOpen'>
+          <div class="tablinks" id='defaultOpen' onclick="openTab(event,'dashboard_top')">
             <i class='fas fa-tachometer-alt'></i>
             <span class="tooltip">Dashboard</span>
             <h4>Dashboard</h4>
           </div>
-          <div class="tablinks">
+          <div class="tablinks" onclick="openTab(event,'teacher_top')">
             <i class='fas fa-chalkboard-teacher'></i>
             <span class="tooltip">Teacher</span>
             <h4>Teacher</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'student')">
+            <i class='fas fa-user'></i>
+            <span class="tooltip">Student</span>
+            <h4>Student</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'parent')">
+            <i class='fas fa-user'></i>
+            <span class="tooltip">Parent</span>
+            <h4>Parent</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'schedule')">
+            <i class='fas fa-clock'></i>
+            <span class="tooltip">Schedule</span>
+            <h4>Schedule</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'admin')">
+            <i class='fas fa-chart-bar'></i>
+            <span class="tooltip">Admin</span>
+            <h4>Admin</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'library')">
+            <i class='fas fa-folder-open'></i>
+            <span class="tooltip">Library</span>
+            <h4>Library</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'media')">
+            <i class='fas fa-video'></i>
+            <span class="tooltip">Media</span>
+            <h4>Media</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'expenses')">
+            <i class='fas fa-check-alt'></i>
+            <span class="tooltip">Expenses</span>
+            <h4>Expenses</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'hotel')">
+            <i class='fas fa-hotel'></i>
+            <span class="tooltip">Hotel</span>
+            <h4>Hotel</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'transport')">
+            <i class='fas fa-car'></i>
+            <span class="tooltip">Transport</span>
+            <h4>Transport</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'exam')">
+            <i class='fas fa-graduation-cap'></i>
+            <span class="tooltip">Exam</span>
+            <h4>Exam</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'events')">
+            <i class='fas fa-clock'></i>
+            <span class="tooltip">Events</span>
+            <h4>Events</h4>
+          </div>
+          <div class="tablinks" onclick="openTab(event,'map')">
+            <i class='fas fa-marker-alt'></i>
+            <span class="tooltip">Map</span>
+            <h4>Map</h4>
           </div>
         </div>
       </div>
@@ -51,8 +111,44 @@
         <div id="dashboard_top" class='tabcontent'>
           <h2>dashboard content</h2>
         </div>
-        <div id="teacher _top" class='tabcontent'>
+        <div id="teacher_top" class='tabcontent'>
           <h2>taecher content</h2>
+        </div>
+        <div id="student" class='tabcontent'>
+          <h2>Student content</h2>
+        </div>
+        <div id="parent" class='tabcontent'>
+          <h2>Parent content</h2>
+        </div>
+        <div id="schedule" class='tabcontent'>
+          <h2>Schedule content</h2>
+        </div>
+        <div id="admin" class='tabcontent'>
+          <h2>Admin content</h2>
+        </div>
+        <div id="library" class='tabcontent'>
+          <h2>Library content</h2>
+        </div>
+        <div id="media" class='tabcontent'>
+          <h2>Media content</h2>
+        </div>
+        <div id="expenses" class='tabcontent'>
+          <h2>Expenses content</h2>
+        </div>
+        <div id="hotel" class='tabcontent'>
+          <h2>Hotel content</h2>
+        </div>
+        <div id="transport" class='tabcontent'>
+          <h2>Transport content</h2>
+        </div>
+        <div id="exam" class='tabcontent'>
+          <h2>Exam content</h2>
+        </div>
+        <div id="events" class='tabcontent'>
+          <h2>Events content</h2>
+        </div>
+        <div id="map" class='tabcontent'>
+          <h2>Map content</h2>
         </div>
       </div>
     </div>
