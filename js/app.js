@@ -1,14 +1,20 @@
-function openTab(evt, tabName) {
-  var i, tabcontents, tabLinks;
-  tabcontents = document.getElementByClassName("tabcontent");
-  for (i = 0; i < tabcontents.length; i++) {
-    tabcontents[i].style.display = "none";
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-  tabLinks = document.getElementByClassName("tabLinks");
-  for (i=0; i < tabLinks.length; i++) {
-    tabLinks[i].className = tabLinks[i].className.replace(" active","");
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(tabName).style.display = "block";
+  document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+$(document).ready(function () {
+  // teacher jquery start here =========================================================
+  // teacher jquery end here ===========================================================
+});
