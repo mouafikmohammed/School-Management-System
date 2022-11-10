@@ -46,8 +46,8 @@
   margin: 30px auto 10px;
 }
 .admin-top .row .admin-left.navSlide .admin img {
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 .admin-top .row .admin-left.navSlide .tab .tablinks:hover .tooltip {
@@ -197,3 +197,4 @@
   -ms-flex-align: center;
   align-items: center;
 }
+/*# sourceMappingURL=admin.css.map */
