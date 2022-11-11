@@ -73,7 +73,7 @@ input[type="password"] {
     width:100%;
 }
 /* center login form end here===================== */
-/* .login_page .row2 .right .admin_form2 {
+.login_page .row2 .right .admin_form2 {
   display: flex;
   overflow:hidden;
   position: relative;
@@ -84,9 +84,9 @@ input[type="password"] {
   margin-bottom: 20px;
 }
 .login_page .row2 .right .admin_form2  .form2{
-    border: 1px solid #ddd;
-    /* position: absolute; */
-    width: 300px;
+  border: 1px solid #ddd;
+  /* position: absolute; */
+  width: 300px;
  
  padding: 20px;
 }
@@ -113,15 +113,15 @@ input[type="password"] {
   transition:0.5s;
 }
 .login_page .row2 .right .admin_form2 .form2 input[type="checkbox"]{
-    margin:10px 0px 15px 0px;
+  margin:10px 0px 15px 0px;
 }
 
 .login_page .row2 .right .admin_form2 .form2 input[type="file"]{
-    margin:10px 0px 15px 0px;
+  margin:10px 0px 15px 0px;
 }
 .login_page .row2 .right .admin_form2 .form2 input[type="submit"]:hover{
-    background-color:transparent;
-    color:#000;
+  background-color:transparent;
+  color:#000;
 }
 .login_page .row2 .right .admin_form2 .form2 a{
    text-decoration:none;
@@ -149,16 +149,14 @@ input[type="password"] {
         <div class="row2">
             <div class="left">
                 <h3>Welcome To</h3>
-                <h2>Islamic School System</h2>
-                <p>lorem assumenda doloremque laborum eaque neque magnam!
-                Ullam assumenda doloremque laborum eaque neque magnam!
-                Ullam assumenda doloremque laborum eaque neque magnam!
+                <h2>School System</h2>
+                <p>text text
                 </p>
             </div>
             <div class="right">
                 <div class="admin_form">
                     
-                    <form class="form1" action="../assets/ajax/admin_ajax/login.php" method="POST">
+                  <form class="form1" action="../assets/ajax/admin_ajax/login.php" method="POST">
                     <h1>Login</h1>
                         <label for="u_name">User Name</label><br>
                         <input type="text" id="u_name" name="u_name"><br>
@@ -172,40 +170,40 @@ input[type="password"] {
                         <br>
                         <input type="submit" name='submit' value="Login">
                         <br>
-                    </form>
+                  </form>
                 </div>
-                <!-- <div class="admin_form_center">
-                    <p>Don't Have an account?</p>
-                    <img src="../images/formArrow1.png" alt="">
-                </div> -->
+<!--
+                <div class="admin_form_center">
+                  <p>Don't Have an account?</p>
+                </div>
                 <div class="admin_form2">
-                    
-                    <!-- <form class="form2" enctype='multipart/form-data' id="adminReg_data" method="post">
-                        <h1>Sign Up</h1>
-                        <label for="u_reg_name">User Name</label><br>
-                        <input type="text" id="u_reg_name" name="u_reg_name"><br>
-                        <label for="u_reg_email">Email</label><br>
-                        <input type="text" id="u_reg_email" name="u_reg_email"><br>
-                        <label for="u_reg_password">Password</label><br>
-                        <input type="password" id="u_reg_password" name="u_reg_password">
-                        <label for="u_c_password">Confirm Password</label><br>
-                        <input type="password" id="u_c_password" name="u_c_password">
-                        <label for="admin_img">Image</label><br>
-                        <input type="file" id="file" name="file"> -->
-                        <!-- <br />
-                             <input type="checkbox" id="psw" onclick="showPassSignUp()" />
-                             <label for="pass">Show Password</label>
-                        <br> -->
-                        <!-- <input type="submit" name='submit' value="Login">
-                        <br>
-                    </form> -->
+                  <form class="form2" enctype='multipart/form-data' id="adminReg_data" method="post">
+                    <h1>Sign Up</h1>
+                    <label for="u_reg_name">User Name</label><br>
+                    <input type="text" id="u_reg_name" name="u_reg_name"><br>
+                    <label for="u_reg_email">Email</label><br>
+                    <input type="text" id="u_reg_email" name="u_reg_email"><br>
+                    <label for="u_reg_password">Password</label><br>
+                    <input type="password" id="u_reg_password" name="u_reg_password">
+                    <label for="u_c_password">Confirm Password</label><br>
+                    <input type="password" id="u_c_password" name="u_c_password">
+                    <label for="admin_img">Image</label><br>
+                    <input type="file" id="file" name="file">
+                    <br />
+                      <input type="checkbox" id="psw" onclick="showPassSignUp()" />
+                      <label for="pass">Show Password</label>
+                    <br>
+                    <input type="submit" class="submit" name='submit' value="Signup">
+                    <br>
+                  </form>
                 </div>
+-->
             </div>
         </div>
     </div>
     <div id="login_after_signup"></div>
     <script>
-        function showPassLogin() {
+      function showPassLogin() {
         var x = document.getElementById("password");
         if (x.type === "password") {
           x.type = "text";
@@ -213,14 +211,14 @@ input[type="password"] {
           x.type = "password";
         }
       }
-    //   function showPassSignUp() {
-    //     var x = document.getElementById("c_password");
-    //     if (x.type === "password") {
-    //       x.type = "text";
-    //     } else {
-    //       x.type = "password";
-    //     }
-    //   }
+      function showPassSignUp() {
+         var x = document.getElementById("c_password");
+         if (x.type === "password") {
+           x.type = "text";
+         } else {
+           x.type = "password";
+         }
+      }
     </script>
 
         <script src="../js/admin_login.js"></script>
