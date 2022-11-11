@@ -188,8 +188,8 @@ include "assets/conn/conn.php";
 
 
             <!-- students section start ======================================= -->
-           <div id="student" class="tabcontent">
-           <?php include 'assets/students.php'; ?>
+          <div id="student" class="tabcontent">
+            <?php include 'assets/students.php'; ?>
           </div>
            <!-- teacher section end ============================================ -->
       <!-- parents section start ========================== -->
